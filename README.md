@@ -9,4 +9,9 @@ A simple stock price predictor using Linear regression model to predict the clos
 - [Tesla Stock Price](https://www.kaggle.com/rpaguirre/tesla-stock-price)
 (already included in the repo as <b>tesla.csv</b>) 
 
+# REQUIREMENTS 
+- Sk learn (pip install sklearn)
+- numpy (pip install numpy)
+- pickle (pip install pickle-mixin)
+- pandas (pip install pandas)
 
