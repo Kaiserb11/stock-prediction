@@ -25,10 +25,10 @@ try:
 
 except:
     clf = linear_model.LinearRegression()
+    clf.fit(x_train, y_train)
     with open("stockmodel.pickle", "wb") as f:
         pickle.dump(clf, f)
 
-clf.fit(x_train, y_train)
 
 prediction = clf.predict(x_test)
 
